@@ -1,0 +1,60 @@
+.song_heading{
+    margin-top: 2vh;
+}
+
+/* .song_button{
+    margin-bottom: 3vh;
+    margin-left: 3vh;
+} */
+.date{
+    width: 17vw;
+    height: 15vh;
+    padding: 3vh 0vw 3vh 4vh;
+}
+
+input[type="file"] {
+    background-color: lightpink;
+    width: 17vw;
+    height: 15vh;
+    padding: 1vh 0vw 5vh 5vh;
+    margin: 2vh 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.select_artist {
+    background-color: lightpink;
+    width: 17vw;
+    height: 5vh;
+    margin: 2vh 0;
+    padding: 1.2vh 0vw 1.2vh 0vh;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.add_artist_cancel {
+    background-color: aliceblue;
+    color:  rgb(37, 29, 29);
+    border-radius: 15px;
+    padding: 1vh 2vh;
+    font-weight: bold;
+}
+
+.add_artist_cancel:hover{
+    background-color: rgb(37, 29, 29);
+    color: aliceblue;
+
+}
+
+.add_position{
+    position: absolute;
+    top: 70vh;
+    left: 25vw;
+    
+}

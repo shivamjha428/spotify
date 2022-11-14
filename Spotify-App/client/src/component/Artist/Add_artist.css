@@ -1,0 +1,51 @@
+.add_artist_container{
+    margin-top: 15vh;
+    width: 100vw;
+    height: 85vh;
+    background-image: url(https://thumbs.dreamstime.com/z/apple-earpods-iphone-spotify-logo-screen-online-streaming-audio-service-moscow-russia-july-155707757.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_artist_container_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 70vh;
+    background:linear-gradient(90deg, rgba(125,27,191,1) 0%, rgba(190,59,161,1) 50%, rgba(252,176,69,1) 100%);;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.add_artist_input{
+    background-color: lightpink;
+    padding: 1.5vh 2vw;
+    margin: 2vh 0;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+input[type="date"]{
+    width: 17vw;
+    height: 7vh;
+
+}
+
+.add_artist_submit{
+
+    background-color: rgb(37, 29, 29);
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 1vh 2vh;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    margin-left: 3vh;
+}
+
+.add_artist_submit:hover{
+    background-color: aliceblue;
+    color:  rgb(37, 29, 29);
+}

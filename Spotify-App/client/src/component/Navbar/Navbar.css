@@ -1,0 +1,37 @@
+.navbar_container {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    border-bottom: 2px solid blue;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+}
+
+.navbar_container_2{
+    margin: 2vh 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo {
+    width: 12vh;
+    height: 12vh;
+}
+
+.nav_list{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+    display:inline-block;
+    margin: 0vh 2vw ;
+    padding: 1vh 1vw;
+}
+
+.nav_list:hover, .nav_list:active{
+    background-color: lightblue;
+    color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
